@@ -1,13 +1,8 @@
-import React from 'react';
-import PageList from '../components/PageList';
+import React from "react";
+import { Pagination } from "../components/pagination";
 
-function PageListContainer(){
-
-    return (
-      <PageList />
-    )
-
-
+function PageListContainer(props) {
+  return <Pagination {...props}/>;
 }
 
 export default PageListContainer;
